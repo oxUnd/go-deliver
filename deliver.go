@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"io/ioutil"
 	"path"
-	util "./util"
+	util "github.com/xiangshouding/go-deliver/util"
 )
 
 func NewDeliver(from, to string) *Deliver {

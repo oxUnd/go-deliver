@@ -13,7 +13,7 @@ package main
 
 import (
     "fmt"
-    d "xiangshouding/go-deliver"
+    d "github.com/xiangshouding/go-deliver"
     "runtime"
     "path"
 )
