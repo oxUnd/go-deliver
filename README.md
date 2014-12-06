@@ -3,7 +3,7 @@
 ### install
 
 ```bash
-$ go get xiangshouding/go-deliver
+$ go get github.com/xiangshouding/go-deliver
 ```
 
 ### use
