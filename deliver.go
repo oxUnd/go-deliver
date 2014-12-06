@@ -60,11 +60,11 @@ func (d *Deliver) Push(r map[string]string) {
 	var ok bool
 	reg, ok = r["reg"]
 	if !ok {
-		panic("A roadmap rule must given key `reg`")
+		panic("A roadmap rule must has key `reg`")
 	}
 	release, ok = r["release"]
 	if !ok {
-		panic("A roadmap rule must given key `release`")
+		panic("A roadmap rule must has key `release`")
 	}
 	roadmap := Roadmap{
 		reg:     reg,
