@@ -72,7 +72,7 @@ func Find(parameters ...interface{}) []string {
 	for _, info := range infos {
 		path_ := path.Join(dir, info.Name())
 
-		if !hit(path_, nil, nil) {
+		if !hit(path_, include, exclude) {
 			continue
 		}
 		if info.IsDir() {
