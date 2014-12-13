@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func NewDeliver(from, to string) *Deliver {
+func New(from, to string) *Deliver {
 	return &Deliver{
 		from:   from,
 		to:     to,
